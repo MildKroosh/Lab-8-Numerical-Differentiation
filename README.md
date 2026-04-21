@@ -1,2 +1,4 @@
 # Lab-8-Numerical-Differentiation
 To numerically obtain the derivative of any function
+
+The provided MATLAB code computes the numerical derivative of a function by employing the forward difference technique. Initially, values of x are established at equal intervals with a step of 0.5, and the related function values are given directly. A loop is employed to calculate the derivative at each point by finding the difference between successive function values and dividing it by the step size. The findings are presented in a table format indicating x, f of x, and the estimated derivative. This approach offers an easy means to calculate derivatives from discrete data points, though it brings about some approximation error, particularly at the initial point. The precision enhances for subsequent values, and superior outcomes can be achieved by employing smaller step sizes or more advanced numerical methods
